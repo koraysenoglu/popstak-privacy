@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Popstak: Block Puzzle Support</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #141823;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 720px;
+      background: #191f2b;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    }
+
+    .blocks {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+
+    .block {
+      width: 22px;
+      height: 22px;
+      border-radius: 5px;
+    }
+
+    .blue { background: #3373e6; }
+    .yellow { background: #facc2e; }
+    .green { background: #40b859; }
+    .red { background: #e04040; }
+    .purple { background: #9e59d9; }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      color: #9ca6bb;
+      font-size: 18px;
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 32px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #c6ccda;
+      font-size: 16px;
+      line-height: 1.65;
+      margin: 8px 0;
+    }
+
+    a {
+      color: #40b859;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact {
+      margin: 20px 0 32px;
+      padding: 18px 20px;
+      background: #141823;
+      border-radius: 14px;
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(255, 255, 255, 0.08);
+      margin: 32px 0;
+    }
+
+    .footer {
+      color: #7f899d;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 28px 22px;
+        border-radius: 18px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="blocks">
+      <div class="block blue"></div>
+      <div class="block yellow"></div>
+      <div class="block green"></div>
+      <div class="block red"></div>
+      <div class="block purple"></div>
+    </div>
+
+    <h1>Popstak: Block Puzzle Support</h1>
+    <div class="subtitle">Support, feedback, and bug reports</div>
+
+    <h2>Need help?</h2>
+    <p>
+      If you have a question about Popstak, encounter a bug, or want to share
+      feedback, you can contact us by email.
+    </p>
+
+    <div class="contact">
+      <a href="mailto:a.koraysenoglu@gmail.com">
+        a.koraysenoglu@gmail.com
+      </a>
+    </div>
+
+    <h2>Destek</h2>
+    <p>
+      Popstak ile ilgili bir sorunuz varsa, bir hata ile karşılaştıysanız veya
+      geri bildirim paylaşmak istiyorsanız e-posta üzerinden iletişime geçebilirsiniz.
+    </p>
+
+    <div class="divider"></div>
+
+    <p>
+      <a href="../">Privacy Policy</a>
+    </p>
+
+    <p class="footer">
+      © 2026 Ahmet Koray Şenoğlu
+    </p>
+  </main>
+</body>
+</html>
